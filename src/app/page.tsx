@@ -1,13 +1,28 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import Lista from "./componentes/lista";
+import Boton from "./componentes/boton";
+import Registrar from "./componentes/registrar";
+
 
 export default function Home() {
+  const user ="Javier";
+
+  const aUser =[
+    {id:1,nombre:"Jhon Smith",user:"jj"},
+    {id:2,nombre:"Maria",user:"mm"}
+  ]
+  
+
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>Hola mundo</p>
-      </div>
-      <p>Hola mundo</p>
-    </main>
+    <>
+      Hola Mundo!
+      <hr/>
+      <Boton/>
+      <hr/>
+      <Lista/>
+      <hr/>
+      <Registrar/>
+    </>
   );
 }

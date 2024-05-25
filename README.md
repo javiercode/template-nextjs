@@ -1,26 +1,34 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Esto es un [Next.js](https://nextjs.org/) proyecto iniciado con [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Requerimientos
 
-Primero, ejecute el siguiente comando:
+Solo necesitas esta tecnología:
+    Node 21 ([Nodejs.org](https://nodejs.org/en) )
+
+## Como empezar
+
+Que comandos se necesita:
 
 ```bash
+# Crear un proyecto
+npx create-next-app@latest
+# instalar las dependencias (si descargas el proyecto de git)
+npm i
+# desplegar proyecto
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Para compilar el proyecto
+npm run build
+# Para desplegar el proyecto compilado
+npm run start
 ```
 
 Abrir [http://localhost:3000](http://localhost:3000) con su navegador para ver el resultado.
 
-Puede comenzar a editar la página modificando `app/page.tsx`. La página se actualiza automáticamente a medida que edita el archivo.
+Puede comenzar a editar la página modificando `src/app/page.tsx`. La página se actualiza automáticamente a medida que edita el archivo.
 
 Este proyecto usa [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) para optimizar y cargar automáticamente Inter, una fuente personalizada de Google.
 
-## Learn More
+## Referencias
 
 Para obtener más información sobre Next.js, consulte los siguientes recursos:
 
